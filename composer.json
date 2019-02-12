@@ -1,0 +1,30 @@
+{
+    "name": "ingress-it-solutions/palzin-sdk",
+    "type": "library",
+    "description": "This is a simple PHP library that makes communication with Palzin API easy",
+    "keywords": [
+        "palzin",
+        "api",
+        "sdk"
+    ],
+    "homepage": "https://github.com/ingress-it-solutions/palzin-sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bhavik Fuletra",
+            "email": "bhavik@ingressit.com"
+        }
+    ],
+    "require": {
+      "php" : ">=5.6.0",
+      "ext-curl" : "*"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Palzin\\SDK\\" : "src"
+        }
+    }
+}
